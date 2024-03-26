@@ -1,4 +1,5 @@
 import EventPage from './component/eventPage'
+import Footer from './component/footer'
 import GlobalConnection from './component/globalConnection'
 import HeroPage from './component/heroPage'
 import Navbar from './component/navbar'
@@ -17,6 +18,7 @@ function App() {
      <SearchPage/>
      <GlobalConnection/>
      <Service/>
+     <Footer/>
     </>
   )
 }

@@ -4,10 +4,10 @@ export default function HeroPage() {
   return (
     <main className='px-24'>
       <div className='grid grid-cols-3 gap-8 py-16 items-center'>
-        <div className='grid col-start-1 col-span-2'>
+        <div className='grid col-start-1 col-span-2 relative overflow-hidden'>
           <img src="https://www.fu-berlin.de/en/_teaser-start/startseite-text-en.png?width=1000" 
           alt="Hero page Image" 
-          className=''/>
+          className='w-full h-full object-cover transition-transform duration-300 transform-gpu hover:scale-110'/>
           <div className='relative'>
             <p className=' bg-gray-100 py-3 px-3 text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus laborum iusto natus officiis assumenda, nesciunt eius ipsam numquam fugit esse exercitationem</p>
             <div className='bg-green-700 w-fit absolute right-0 bottom-0'>
