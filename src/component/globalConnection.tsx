@@ -2,8 +2,8 @@ import React from 'react'
 import chevlon from '../assets/chevlonRight.svg'
 export default function GlobalConnection() {
   return (
-    <main className='mx-12 bg-gray-100 mb-12'>
-      <div className='grid grid-cols-3 px-12 py-12 gap-8'>
+    <main className='lg:mx-12 mx-2 bg-gray-100 lg:mb-12'>
+      <div className='lg:grid grid-cols-3 px-2 py-6 lg:px-12 lg:py-12 gap-8 space-y-6 lg:space-y-0'>
         <div className=' flex flex-col gap-8'>
           <h1 className='font-semibold text-4xl'>Global Connections</h1>
           <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -12,7 +12,7 @@ export default function GlobalConnection() {
             officiis molestias excepturi numquam repudiandae voluptatem eveniet!
             officiis? Dolor recusandae totam rerum vel 
             officiis molestias excepturi numquam repudiandae voluptatem eveniet!</p>
-            <div className='flex items-center gap-4 py-3 px-4 bg-green-900 w-fit'>
+            <div className='flex items-center gap-4 py-3 px-4 bg-[#004659] w-fit hover:bg-[#176075]'>
         <img src={chevlon} 
         alt="chevlon Icon"
         className='w-6 h-6'/>

@@ -4,14 +4,14 @@ import downIcon from '../assets/downIcon.svg'
 import search from '../assets/search.svg'
 export default function Navbar() {
   return (
-    <nav className='px-12'>
+    <nav className='px:2 lg:px-12'>
     <div className='flex justify-between py-4'>
         <div >
             <img src={logo} 
             alt="fu-berlin-logo"
-            className='t w-80 h-24'/>
+            className='w-52 h-16 lg:w-80 lg:h-24'/>
         </div>
-        <div className='flex flex-col gap-6'>
+        <div className='lg:block hidden  lg:flex flex-col gap-6'>
             <ul className='flex gap-6'>
                 <li>Homepage</li>
                 <li>Contact</li>
@@ -50,7 +50,7 @@ export default function Navbar() {
         </div>
     </div>
     <h3 className='bg-gray-100 py-2 px-4 text-xl'>FREIE UNIVERSITAT BERLIN</h3>
-    <ul className=' flex gap-4 justify-start border-b-4 border-black py-3 [&_li]:font-semibold [&_li]:text-lg'>
+    <ul className='lg:block hidden  lg:flex gap-4 justify-start border-b-4 border-black py-3 [&_li]:font-semibold [&_li]:text-lg'>
         <li>ABOUT</li>
         <li>EDUCATION</li>
         <li>RESEARCH</li>
