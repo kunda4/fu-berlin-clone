@@ -8,7 +8,7 @@ import menu from '../assets/menu.svg'
 export default function Navbar() {
   return (
     <nav>
-    <div className='flex justify-between pt-6'>
+    <div className='flex justify-between px-1 lg:px-6 pt-4 lg:py-6 py-1'>
         <div >
             <img src={logo} 
             alt="fu-berlin-logo"
