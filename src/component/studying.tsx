@@ -2,7 +2,7 @@ import React from 'react'
 import chevlon from '../assets/chevlonRight.svg'
 export default function Studying() {
   return (
-    <main className='lg:mx-12 mx-2 bg-gray-100'>
+    <main className='bg-[#EEEEEE]'>
       <div className='lg:grid grid-cols-3 lg:px-12 px-2 lg:py-12 py-4 gap-8 space-y-6 lg:space-y-0'>
         <div className=' flex flex-col gap-8'>
           <h1 className='font-semibold text-3xl lg:text-5xl'>Studying</h1>

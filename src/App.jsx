@@ -11,6 +11,7 @@ function App() {
 
   return (
     <>
+    <div className='max-w-7xl mx-auto'>
      <Navbar/>
      <HeroPage/>
      <EventPage/>
@@ -19,6 +20,7 @@ function App() {
      <GlobalConnection/>
      <Service/>
      <Footer/>
+     </div>
     </>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import chevlon from '../assets/chevlonRight.svg'
 export default function GlobalConnection() {
   return (
-    <main className='lg:mx-12 mx-2 bg-gray-100 lg:mb-12'>
+    <main className='bg-[#EEEEEE] lg:mb-12'>
       <div className='lg:grid grid-cols-3 px-2 py-6 lg:px-12 lg:py-12 gap-8 space-y-6 lg:space-y-0'>
         <div className=' flex flex-col gap-8'>
           <h1 className='font-semibold text-3xl lg:text-4xl'>Global Connections</h1>

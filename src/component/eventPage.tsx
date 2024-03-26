@@ -6,7 +6,7 @@ import menu from '../assets/menu.svg'
 import chevlon from '../assets/chevlonRight.svg'
 export default function EventPage() {
   return (
-    <main className='px-2 lg:px-24 lg:pb-12'>
+    <main className='lg:pb-12'>
       <div className='lg:grid grid-cols-4 gap-8 lg:py-12 py-4 lg:space-y-0 space-y-8'>
         <div className='grid col-span-2 relative overflow-hidden group'>
           <img src="https://www.fu-berlin.de/_campus-aktuell/_fotos-grafiken/fup-24-059-eismond.jpg?width=700" 

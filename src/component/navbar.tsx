@@ -7,14 +7,14 @@ import menu from '../assets/menu.svg'
 
 export default function Navbar() {
   return (
-    <nav className='px:2 lg:px-12'>
-    <div className='flex justify-between py-6'>
+    <nav>
+    <div className='flex justify-between pt-6'>
         <div >
             <img src={logo} 
             alt="fu-berlin-logo"
-            className='w-52 h-16 lg:w-80 lg:h-24'/>
+            className='w-52 h-16 lg:w-60 lg:h-24'/>
         </div>
-        <div className=' lg:hidden block flex flex-row gap-3 pr-6 items-center'>
+        <div className='lg:hidden block flex flex-row gap-3 pr-6 items-center'>
             <img src={search} alt="Search Icon" className='w-8 h-8'/>
             <img src={ellipis} alt="Ellipis horizontally" className='w-10 h-10' />
         </div>
