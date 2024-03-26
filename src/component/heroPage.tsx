@@ -2,7 +2,7 @@ import React from 'react'
 import arrowRight from '../assets/arrowRight.svg'
 export default function HeroPage() {
   return (
-    <main>
+    <main className='lg:px-16 px-2'>
       <div className='lg:grid grid-cols-3 gap-8 lg:py-16 py-8 items-center'>
         <div className='grid col-start-1 col-span-2 relative overflow-hidden group'>
           <img src="https://www.fu-berlin.de/en/_teaser-start/startseite-text-en.png?width=1000" 

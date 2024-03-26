@@ -2,7 +2,7 @@ import React from 'react'
 import chevlon from '../assets/chevlonRight.svg'
 export default function SearchPage() {
   return (
-    <main>
+    <main className='lg:px-16 px-2'>
       <div className='lg:grid grid-cols-3 lg:py-12 gap-8 space-y-6 lg:space-y-0'>
         <div className='flex flex-col gap-8'>
           <h1 className='font-semibold text-3xl lg:text-5xl'>Search</h1>
