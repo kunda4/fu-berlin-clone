@@ -4,11 +4,11 @@ import downIcon from '../assets/downIcon.svg'
 import search from '../assets/search.svg'
 export default function Navbar() {
   return (
-    <nav className='flex justify-between px-24 py-6'>
+    <nav className='flex justify-between px-12 py-6'>
         <div >
             <img src={logo} 
             alt="fu-berlin-logo"
-            className='w-1/3 h-24'/>
+            className='t w-80 h-24'/>
         </div>
         <div className='flex flex-col gap-6'>
             <ul className='flex gap-6'>
@@ -20,29 +20,29 @@ export default function Navbar() {
                 <li>Accessibility Statement</li>
             </ul>
             <div className='flex justify-end gap-6'>
-                <h5 className='flex gap-2'>
+                <h5 className='flex gap-2 py-2 px-2 border rounded border-gray-400'>
                     <span>En</span>
                     <img src={downIcon} 
-                    alt=""
+                    alt="downIcon"
                     className='w-6 h-6'/>
                 </h5>
-                <h5 className='flex gap-2'>
+                <h5 className='flex gap-2 py-2 px-2 border rounded border-gray-400'>
                     <span>Quicklinks</span>
                     <img src={downIcon} 
-                    alt=""
+                    alt="downIcon"
                     className='w-6 h-6' />
                 </h5>
-                <h5 className='flex gap-2'>
+                <h5 className='flex gap-2 py-2 px-2 border rounded border-gray-400'>
                     <span>Information for</span>
                     <img 
                     src={downIcon} 
-                    alt=""
+                    alt="downIcon"
                     className='w-6 h-6' />
                 </h5>
-                <h5 className='flex gap-2'>
-                    <span>Search with goole...</span>
+                <h5 className='flex gap-2 py-2 px-2 border rounded border-gray-400'>
+                    <span className='t text-gray-500'>Search with Google ...</span>
                     <img src={search} 
-                    alt="" 
+                    alt="search Icon" 
                     className='w-6 h-6'/>
                 </h5>
             </div>
