@@ -40,36 +40,36 @@ export default function EventPage() {
         </div>
         <div className='col-start-4'>
           <h1 className='font-semibold text-2xl pb-2'>Events</h1>
-          <div className='flex gap-10 border-b border-gray-400 pb-4'>
-            <h5 className='flex flex-col gap-2'>
+          <div className='flex flex-col lg:flex-row gap-2 lg:gap-10 border-b border-gray-400 pb-4'>
+            <h5 className='flex flex-row lg:flex-col gap-2'>
               <span className=' text-gray-500 font-semibold'>Mar 26</span>
               <span className='text-gray-500'>2:00 PM</span>
               
             </h5>
-            <h5 className='flex flex-col gap-2'>
+            <h5 className='flex flex-row lg:flex-col gap-2'>
             <span className='underline'>Service | Introductory</span>
               <span className='underline'>Course to Citavi</span>
             </h5>
           </div>
-          <div className='flex gap-10 border-b border-gray-400 pb-4'>
-            <h5 className='flex flex-col gap-1'>
+          <div className='flex flex-col lg:flex-row gap-2 lg:gap-10 border-b border-gray-400 pb-4'>
+            <h5 className='flex flex-row lg:flex-col gap-1'>
               <span className=' text-gray-500 font-semibold'>Mar 26</span>
               <span className='text-gray-500'>2:00 PM</span>
               
             </h5>
-            <h5 className='flex flex-col gap-1'>
+            <h5 className='flex flex-row lg:flex-col gap-1'>
             <span className='underline'>Service | Introductory</span>
               <span className='underline'>Course to Citavi</span>
             </h5>
           </div>
-          <div className='flex gap-10 border-b border-gray-400 pb-4 [&_span]:text-lg'>
-            <h5 className='flex flex-col gap-1'>
-              <span className=' text-gray-500 font-semibold'>Mar 26</span>
+          <div className='flex flex-col lg:flex-row gap-2 lg:gap-10 border-b border-gray-400 pb-4 [&_span]:text-lg'>
+            <h5 className='flex flex-row lg:flex-col gap-1'>
+              <span className='text-gray-500 font-semibold'>Mar 26</span>
               <span className='text-gray-500'>2:00 PM</span>
               
             </h5>
-            <h5 className='flex flex-col gap-1'>
-            <span className='underline'>Service | Introductory</span>
+            <h5 className='flex flex-row lg:flex-col flex-wrap lg:flex-nowrap gap-1'>
+            <span className='underline'>Service|Introductory</span>
               <span className='underline'>Course to Citavi</span>
               <span className='underline'>officiis assumenda</span>
               <span className='underline'>Course to Citavi</span>
