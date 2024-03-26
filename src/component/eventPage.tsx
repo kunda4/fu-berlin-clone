@@ -21,11 +21,12 @@ export default function EventPage() {
               />
             </div>
           </div>
+          <span className='text-sm bg-[#000000] w-fit text-gray-200 absolute top-16 -right-16 rotate-90 px-1 py-1'>Image Credit: Björn Kral</span>
         </div>
-        <div className='col-start-3 overflow-hidden group'>
+        <div className='col-start-3 relative overflow-hidden group'>
           <img src="https://www.fu-berlin.de/en/featured-stories/campus/2024/mendel-cheema-lecture/mendel-cheema-stage.jpg?width=350" 
           alt="Images" 
-          className=' w-full object-cover transition-transform duration-300 transform-gpu group-hover:scale-110'/>
+          className='w-full object-cover transition-transform duration-300 transform-gpu group-hover:scale-110'/>
           <div className='relative'>
             <p className=' bg-gray-100 py-3 px-3 text-xl group-hover:bg-[#CCCCCC]'>Lecture by Saba-Nur Cheema and Meron Mendel: Responses to the Middle East Conflict. Freie Universität Berlin hosts lecture series against antisemitism, racism, and anti-Islamic radicalism</p>
             <div className='bg-[#176075] w-fit absolute right-0 bottom-0 group-hover:group-hover:bg-[#004659]'>
@@ -35,6 +36,7 @@ export default function EventPage() {
               />
             </div>
           </div>
+          <span className='text-sm bg-[#4C4D52] w-fit text-gray-200 absolute top-16 -right-16 rotate-90 px-1 py-1'>Image Credit: Björn Kral</span>
         </div>
         <div className='col-start-4'>
           <h1 className='font-semibold text-2xl pb-2'>Events</h1>

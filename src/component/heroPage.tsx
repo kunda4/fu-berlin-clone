@@ -9,7 +9,7 @@ export default function HeroPage() {
           alt="Hero page Image" 
           className='w-full h-full object-cover transition-transform duration-300 transform-gpu group-hover:scale-110'/>
           <div className='relative'>
-            <p className=' bg-gray-100 py-3 px-3 text-xl group-hover:bg-[#CCCCCC]'>Measures Taken against Antisemitism, Racism, and Discrimination: Counseling and Advice Services, Events, University Communication Regarding the Conflict in the Middle East</p>
+            <p className='bg-gray-100 py-3 px-3 text-xl group-hover:bg-gray-300'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus laborum iusto natus officiis assumenda, nesciunt eius ipsam numquam fugit esse exercitationem</p>
             <div className='bg-[#176075] w-fit absolute right-0 bottom-0 group-hover:bg-[#004659]'>
               <img src={arrowRight} 
               alt="Arrow Right Icon"
@@ -17,8 +17,10 @@ export default function HeroPage() {
               />
             </div>
           </div>
+            <span className='text-sm bg-[#243D49] w-fit text-gray-200 absolute top-16 -right-16 rotate-90 px-1 py-1'>Image Credit: Björn Kral</span>
+         
         </div>
-        <div className='grid col-start-3 col-span-1 gap-6 md:py-0 py-12 [&_p]:text-base lg:[&_p]:text-lg'>
+        <div className='grid col-start-3 col-span-1 gap-6 md:py-0 py-12 [&_p]:text-lg'>
           <p>40,000 people from over 150 countries –  and from many different origins as well as cultural and religious backgrounds – study, teach, and work at Freie Universität Berlin.</p>
           <p>Diversity is a cornerstone of our university.</p>
           <p>And compassion, respect, and tolerance are the pillars that reinforce our community. Antisemitism, racism, and discrimination have no place at Freie Universität.</p>
