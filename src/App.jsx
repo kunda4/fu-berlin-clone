@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <div className='max-w-7xl mx-auto'>
+    <div className='max-w-7xl mx-auto lg:px-0 px-2'>
      <Navbar/>
      <HeroPage/>
      <EventPage/>
