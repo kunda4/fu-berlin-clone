@@ -1,6 +1,8 @@
 import EventPage from './component/eventPage'
+import GlobalConnection from './component/globalConnection'
 import HeroPage from './component/heroPage'
 import Navbar from './component/navbar'
+import SearchPage from './component/searchPage'
 import Studying from './component/studying'
 
 function App() {
@@ -11,6 +13,8 @@ function App() {
      <HeroPage/>
      <EventPage/>
      <Studying/>
+     <SearchPage/>
+     <GlobalConnection/>
     </>
   )
 }
