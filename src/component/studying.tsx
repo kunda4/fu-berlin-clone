@@ -5,7 +5,7 @@ export default function Studying() {
     <main className='lg:mx-12 mx-2 bg-gray-100'>
       <div className='lg:grid grid-cols-3 lg:px-12 px-2 lg:py-12 py-4 gap-8 space-y-6 lg:space-y-0'>
         <div className=' flex flex-col gap-8'>
-          <h1 className='font-semibold text-5xl'>Studying</h1>
+          <h1 className='font-semibold text-3xl lg:text-5xl'>Studying</h1>
           <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Obcaecati deserunt cum incidunt dolorum saepe, accusamus 
             aliquam! Quas, officiis? Dolor recusandae totam rerum vel 

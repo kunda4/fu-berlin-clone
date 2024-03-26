@@ -5,7 +5,7 @@ export default function SearchPage() {
     <main>
       <div className='lg:grid grid-cols-3 px-2 py-6 lg:px-24 lg:py-12 gap-8 space-y-6 lg:space-y-0'>
         <div className='flex flex-col gap-8'>
-          <h1 className='font-semibold text-5xl'>Search</h1>
+          <h1 className='font-semibold text-3xl lg:text-5xl'>Search</h1>
           <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Obcaecati deserunt cum incidunt dolorum saepe, accusamus 
             aliquam! Quas, officiis? Dolor recusandae totam rerum vel 

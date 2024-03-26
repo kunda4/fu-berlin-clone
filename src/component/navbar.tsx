@@ -2,6 +2,9 @@ import React from 'react'
 import logo from '../assets/logo.png'
 import downIcon from '../assets/downIcon.svg'
 import search from '../assets/search.svg'
+import ellipis from '../assets/ellipis.svg'
+import menu from '../assets/menu.svg'
+
 export default function Navbar() {
   return (
     <nav className='px:2 lg:px-12'>
@@ -10,6 +13,10 @@ export default function Navbar() {
             <img src={logo} 
             alt="fu-berlin-logo"
             className='w-52 h-16 lg:w-80 lg:h-24'/>
+        </div>
+        <div className=' lg:hidden block flex flex-row gap-3 pr-6 items-center'>
+            <img src={search} alt="Search Icon" className='w-8 h-8'/>
+            <img src={ellipis} alt="Ellipis horizontally" className='w-10 h-10' />
         </div>
         <div className='lg:block hidden  lg:flex flex-col gap-6'>
             <ul className='flex gap-6'>
@@ -49,8 +56,12 @@ export default function Navbar() {
             </div>
         </div>
     </div>
-    <h3 className='bg-gray-100 py-2 px-4 text-xl'>FREIE UNIVERSITAT BERLIN</h3>
-    <ul className='lg:block hidden  lg:flex gap-4 justify-start border-b-4 border-black py-3 [&_li]:font-semibold [&_li]:text-lg'>
+    <h3 className='bg-gray-100 py-2 px-2 lg:px-4 text-lg lg:text-xl'>FREIE UNIVERSITAT BERLIN</h3>
+    <div className='lg:hidden block flex flex-row justify-between px-2 py-2 border-b-4 border-black'>
+        <span>MENU</span>
+        <img src={menu} alt="menu Icon" className='w-6 h-6' />
+    </div>
+    <ul className='lg:block hidden lg:flex gap-4 justify-start border-b-4 border-black py-3 [&_li]:font-semibold [&_li]:text-lg'>
         <li>ABOUT</li>
         <li>EDUCATION</li>
         <li>RESEARCH</li>
