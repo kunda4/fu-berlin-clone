@@ -2,21 +2,21 @@ import React from 'react'
 import chevlonRightBlack from '../assets/chevlonRightBlack.svg'
 export default function Service() {
   return (
-   <main className='px-2 py-6 lg:px-24 lg:py-12'>
+   <main className='px-2 py-6 lg:px-24 lg:pb-24 lg:pt-12'>
     <div className='lg:grid grid-cols-3 gap-6 [&_span]:text-xl space-y-6 lg:space-y-0'>
-        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500'>
+        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500 text-[#004659] hover:text-white hover:bg-[#004659]'>
             <img src={chevlonRightBlack} 
             alt="chevlonRightBlack"
             className='w-8 h-8'/>
             <span>Jobs & Careers</span>
         </div>
-        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500'>
+        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500 text-[#004659] hover:text-white hover:bg-[#004659]'>
             <img src={chevlonRightBlack} 
             alt="chevlonRightBlack"
             className='w-8 h-8'/>
             <span>Energy & Sustainability</span>
         </div>
-        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500'>
+        <div className='flex gap-3 py-3 px-4 border rounded-none border-gray-500 text-[#004659] hover:text-white hover:bg-[#004659]'>
             <img src={chevlonRightBlack} 
             alt="chevlonRightBlack"
             className='w-8 h-8'/>

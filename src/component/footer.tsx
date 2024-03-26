@@ -180,10 +180,9 @@ export default function Footer() {
             <img src="https://www.fu-berlin.de/assets/default2/fu-siegel-web-schwarz-684a4d11be3c3400d8906a344a77c9a4.png" 
             alt="footer icon" 
             className='t w-32 h-32 lg:w-40 lg:h-1/2'/>
-            <p className='md:text-base text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Facilis vero nostrum odit velit eius eaque quas? Consequatur 
-                aliquam eos id at nam assumenda blanditiis minima nostrum, 
-                expedita, numquam optio laborum.</p>
+            <p className='md:text-base text-sm'>The Latin words veritas, justitia, and libertas, which frame the seal 
+            of Freie Universität Berlin, stand for the values that have defined the academic ethos of Freie 
+            Universität since its founding in December 1948.</p>
         </div>
     </footer>
   )
