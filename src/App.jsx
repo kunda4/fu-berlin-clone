@@ -1,3 +1,4 @@
+import EventPage from './component/eventPage'
 import HeroPage from './component/heroPage'
 import Navbar from './component/navbar'
 
@@ -7,6 +8,7 @@ function App() {
     <>
      <Navbar/>
      <HeroPage/>
+     <EventPage/>
     </>
   )
 }
