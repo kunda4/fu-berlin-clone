@@ -25,7 +25,7 @@ export default function EventPage() {
         <div className='col-start-3 overflow-hidden group'>
           <img src="https://www.fu-berlin.de/en/featured-stories/campus/2024/mendel-cheema-lecture/mendel-cheema-stage.jpg?width=350" 
           alt="Images" 
-          className='object-cover transition-transform duration-300 transform-gpu group-hover:scale-110'/>
+          className=' w-full object-cover transition-transform duration-300 transform-gpu group-hover:scale-110'/>
           <div className='relative'>
             <p className=' bg-gray-100 py-3 px-3 text-xl group-hover:bg-gray-300'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus laborum iusto natus officiis assumenda, nesciunt eius ipsam numquam fugit esse exercitationem
             elit. Delectus laborum iusto natus officiis assumenda, nesciunt eius ipsam numquam fugit</p>

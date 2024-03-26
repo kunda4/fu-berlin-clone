@@ -22,7 +22,7 @@ export default function SearchPage() {
         <div className='col-start-2 col-span-2 border-b border-gray-300'>
           <img src="https://www.fu-berlin.de/en/_inhalte-neu/supra-fab.jpg?width=1300" alt="" />
           <div className='py-2'>
-          <h6 className='text-sm text-gray-600'>Student of the campus of numquam repudiandae</h6>
+          <h6 className='lg:block hidden text-sm text-gray-600'>Student of the campus of numquam repudiandae</h6>
           <h6 className='text-sm text-gray-600'>Image Credit: Agnes Iradukunda</h6>
           </div>
         </div>

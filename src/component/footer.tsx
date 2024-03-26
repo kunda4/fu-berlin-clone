@@ -1,5 +1,5 @@
 import React from 'react'
-import chevlonRight from '../assets/chevlonRight.svg'
+import chevlonRightBlack from '../assets/chevlonRightBlack.svg'
 import facebook from '../assets/facebook.svg'
 import google from '../assets/google.svg'
 import instagram from '../assets/instagram.svg'
@@ -9,60 +9,60 @@ import youtube from '../assets/youtube.svg'
 
 export default function Footer() {
   return (
-    <footer className='px-24 pb-12 [&_span]:text-sm'>
-        <div className='grid grid-cols-4 justify-start gap-8 border-b border-black pb-12'>
+    <footer className='px-2 py-6 lg:px-24 lg:pb-12 [&_span]:text-sm'>
+        <div className='lg:grid grid-cols-4 justify-start gap-8 border-b border-black pb-12'>
             <div className='flex flex-col gap-2'>
                 <h4 className='text-xl py-4'>Information for</h4>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Employees</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Prospective Students</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Refugees</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Student and doctorate</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Researchers</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Alumin and Supporters</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Jounalist</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Continuing Education</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Employees</span>
@@ -71,37 +71,37 @@ export default function Footer() {
             <div className='flex flex-col gap-2'>
                 <h4 className='text-xl py-4'>Service Navigation</h4>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Homepage</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Contact</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Legal Notice</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Data Protection Policy</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Researchers</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Alumin and Supporters</span>
@@ -150,25 +150,25 @@ export default function Footer() {
             <div className='flex flex-col gap-2'>
                 <h4 className='text-xl py-4'>This Page</h4>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Print</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Prospective Students</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Feedback</span>
                 </p>
                 <p className='flex gap-2'>
-                    <img src={chevlonRight} 
+                    <img src={chevlonRightBlack} 
                     alt="chevlon right icon"
                     className='w-6 h-6' />
                     <span className='hover:underline'>Student and doctorate</span>
@@ -176,11 +176,11 @@ export default function Footer() {
               
             </div>
         </div>
-        <div className='flex items-center gap-16 w-[60%] pt-12'>
+        <div className='flex items-center gap-4 lg:gap-16 w-full lg:w-[60%] pt-12'>
             <img src="https://www.fu-berlin.de/assets/default2/fu-siegel-web-schwarz-684a4d11be3c3400d8906a344a77c9a4.png" 
-            alt="" 
-            className='w-40 h-1/2'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            alt="footer icon" 
+            className='t w-32 h-32 lg:w-40 lg:h-1/2'/>
+            <p className='md:text-base text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Facilis vero nostrum odit velit eius eaque quas? Consequatur 
                 aliquam eos id at nam assumenda blanditiis minima nostrum, 
                 expedita, numquam optio laborum.</p>
