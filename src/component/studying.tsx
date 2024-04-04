@@ -3,7 +3,7 @@ import chevlon from '../assets/chevlonRight.svg'
 export default function Studying() {
   return (
     <main className='bg-[#EEEEEE] lg:my-0 my-8'>
-      <div className='lg:grid grid-cols-3 lg:px-12 px-2 lg:py-12 py-4 gap-8 space-y-6 lg:space-y-0'>
+      <div className='lg:grid grid-cols-3 lg:px-16 px-2 lg:py-12 py-4 gap-8 space-y-6 lg:space-y-0'>
         <div className=' flex flex-col gap-8'>
           <h1 className='font-semibold text-3xl lg:text-5xl'>Studying</h1>
           <p className='text-lg'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 

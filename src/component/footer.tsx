@@ -9,7 +9,7 @@ import youtube from '../assets/youtube.svg'
 
 export default function Footer() {
   return (
-    <footer className='py-6 lg:pb-12 [&_span]:text-sm lg:px-0 px-2'>
+    <footer className='py-6 lg:pb-12 [&_span]:text-sm lg:px-16 px-2'>
         <div className='lg:grid grid-cols-4 justify-start gap-8 border-b border-black pb-12'>
             <div className='flex flex-col gap-2'>
                 <h4 className='text-xl py-4'>Information for</h4>
